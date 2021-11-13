@@ -2,6 +2,8 @@ This script will send a `GET` request to a specified URL every 60 seconds, and i
 
 ## Setup
 
+Use `pip install -r requirements.txt` to install all required modules.
+
 This script uses `dotenv` to retrieve the email credentials the bot will login to, email to send the message to, and the URL to check. Create a file named `.env` with the following content:
 
 ```
